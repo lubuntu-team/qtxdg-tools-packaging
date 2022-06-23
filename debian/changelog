@@ -7,6 +7,9 @@ qtxdg-tools (3.9.1-0ubuntu1~ppa1) jammy; urgency=medium
   * Ignored executable in library package.
     - (Reasoning: it makes sense for the package to be a library and have
     - an executable in it).
+  * Ignored wrong changelog file name.
+    - (Reasoning: The changelog file is very short, named "CHANGELOG" in
+    - the package, and it would be overkill to try to change the filename.)
 
  -- Aaron Rainbolt <arraybolt3@gmail.com>  Wed, 22 Jun 2022 20:49:32 -0500
 

@@ -1,2 +1,5 @@
 qtxdg-tools: no-manual-page usr/bin/qtxdg-mat
 qtxdg-tools: application-in-library-section libs usr/bin/qtxdg-mat
+
+qtxdg-tools: wrong-name-for-upstream-changelog usr/share/doc/qtxdg-tools/CHANGELOG
+# The changelog file is named "CHANGELOG", and it would require modifying the package to fix this, so ignore it.
