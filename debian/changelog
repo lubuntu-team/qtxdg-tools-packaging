@@ -4,6 +4,9 @@ qtxdg-tools (3.9.1-0ubuntu1~ppa1) jammy; urgency=medium
   * Removed "-Wl,--as-needed" linker flag.
   * Removed Repository-Browser field from debian/upstream/metadata.
   * Ignored missing manual page for qtxdg-mat.
+  * Ignored executable in library package.
+    - (Reasoning: it makes sense for the package to be a library and have
+    - an executable in it).
 
  -- Aaron Rainbolt <arraybolt3@gmail.com>  Wed, 22 Jun 2022 20:49:32 -0500
 

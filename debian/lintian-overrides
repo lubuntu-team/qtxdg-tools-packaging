@@ -1,1 +1,2 @@
 qtxdg-tools: no-manual-page usr/bin/qtxdg-mat
+qtxdg-tools: application-in-library-section libs usr/bin/qtxdg-mat
