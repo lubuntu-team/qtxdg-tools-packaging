@@ -1,4 +1,4 @@
-qtxdg-tools (3.9.1-0ubuntu2) jammy; urgency=medium
+qtxdg-tools (3.9.1-0ubuntu1~ppa1) jammy; urgency=medium
 
   * Backport to Jammy.
   * Removed "-Wl,--as-needed" linker flag.
