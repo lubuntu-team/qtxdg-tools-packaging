@@ -1,4 +1,4 @@
-qtxdg-tools (3.10.0-0ubuntu1) UNRELEASED; urgency=medium
+qtxdg-tools (3.10.0-0ubuntu1) lunar; urgency=medium
 
   * New upstream release.
   * Fix the watch file, for real this time.
@@ -6,7 +6,7 @@ qtxdg-tools (3.10.0-0ubuntu1) UNRELEASED; urgency=medium
   * Bump build dependencies to the latest upstream LXQt versions.
   * Fix typo in the upstream metadata.
 
- -- Simon Quigley <tsimonq2@ubuntu.com>  Wed, 16 Nov 2022 18:39:16 -0600
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Wed, 16 Nov 2022 19:05:55 -0600
 
 qtxdg-tools (3.9.1-0ubuntu1) kinetic; urgency=medium
 
