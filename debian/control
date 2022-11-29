@@ -1,7 +1,7 @@
 Source: qtxdg-tools
 Maintainer: Lubuntu Developers <lubuntu-devel@lists.ubuntu.com>
 Uploaders: Simon Quigley <tsimonq2@lubuntu.me>
-Section: libs
+Section: admin
 Priority: optional
 Build-Depends: debhelper-compat (= 13),
                libqt5xdg-dev (>= 3.10.0),
