@@ -11,6 +11,7 @@ Standards-Version: 4.6.1
 Vcs-Browser: https://git.lubuntu.me/Lubuntu/qtxdg-tools-packaging
 Vcs-Git: https://git.lubuntu.me/Lubuntu/qtxdg-tools-packaging.gi
 Homepage: https://github.com/lxqt/qtxdg-tools
+Rules-Requires-Root: no
 
 Package: qtxdg-tools
 Architecture: any
