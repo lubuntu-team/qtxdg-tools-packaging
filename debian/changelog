@@ -1,4 +1,4 @@
-qtxdg-tools (3.10.0-0ubuntu2) UNRELEASED; urgency=medium
+qtxdg-tools (3.10.0-0ubuntu2) lunar; urgency=medium
 
   * Updated copyright file.
   * Drop unnecessary debian/docs file.
@@ -8,7 +8,7 @@ qtxdg-tools (3.10.0-0ubuntu2) UNRELEASED; urgency=medium
   * Moved the package to the "admin" section since it doesn't really fit
     in "libs".
 
- -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Tue, 29 Nov 2022 11:37:04 -0600
+ -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Tue, 29 Nov 2022 14:32:00 -0600
 
 qtxdg-tools (3.10.0-0ubuntu1) lunar; urgency=medium
 
