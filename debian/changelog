@@ -1,6 +1,7 @@
 qtxdg-tools (3.10.0-0ubuntu2) UNRELEASED; urgency=medium
 
   * Updated copyright file.
+  * Drop unnecessary debian/docs file.
 
  -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Tue, 29 Nov 2022 11:37:04 -0600
 
