@@ -7,6 +7,7 @@ qtxdg-tools (3.10.0-0ubuntu2) lunar; urgency=medium
   * Removed obsolete "-Wl,--as-needed" linker flag.
   * Moved the package to the "admin" section since it doesn't really fit
     in "libs".
+  * Fixed a typo in debian/control.
 
  -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Tue, 29 Nov 2022 14:32:00 -0600
 
