@@ -1,28 +1,48 @@
-qtxdg-tools (3.10.0-0ubuntu2) lunar; urgency=medium
+qtxdg-tools (3.10.0-1) unstable; urgency=medium
 
-  * Updated copyright file.
-  * Drop unnecessary debian/docs file.
-  * Overrode a missing manpage Lintian gripe.
-  * Added 'Rules-Requires-Root: no' to debian/control.
-  * Removed obsolete "-Wl,--as-needed" linker flag.
-  * Moved the package to the "admin" section since it doesn't really fit
-    in "libs".
-  * Fixed a typo in debian/control.
+  [ Palo Kisa ]
+  * New upstream release
+  * debian/watch: Fix github uscan processing
+  * debian: Add gbp config
 
- -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Tue, 29 Nov 2022 14:32:00 -0600
+  [ ChangZhuo Chen (陳昌倬) ]
+  * Add ChangZhuo Chen as Uploaders.
+  * Add Repository-Browse in d/upstream/mateadata.
+  * Update Build-Depends.
+  * Refactor d/copyright.
 
-qtxdg-tools (3.10.0-0ubuntu1) lunar; urgency=medium
+ -- ChangZhuo Chen (陳昌倬) <czchen@debian.org>  Thu, 08 Dec 2022 01:09:08 +0800
 
-  * New upstream release.
-  * Fix the watch file, for real this time.
-  * Lubuntuify the package slightly, to make debhelper happy.
-  * Bump build dependencies to the latest upstream LXQt versions.
-  * Fix typo in the upstream metadata.
+qtxdg-tools (3.9.1-3) unstable; urgency=medium
 
- -- Simon Quigley <tsimonq2@ubuntu.com>  Wed, 16 Nov 2022 19:05:55 -0600
+  [ Aaron Rainbolt ]
+  * debian/watch: Overhaul watch file to make it compatible with GitHub
+    again.
+  * debian/control: Added 'Rules-Requires-Root: no' to silence a Lintian
+    gripe.
+  * debian/copyright: Added Aaron Rainbolt.
+  * debian/control: Fixed Vcs-Browser and Vcs-Git fields to point to
+    Debian Salsa rather than Lubuntu GitHub.
+  [ Andrew Lee (李健秋) ]
+  * debian/salsa-ci.yml: disable build in experimental to make piuparts
+    happy.
 
-qtxdg-tools (3.9.1-0ubuntu1) kinetic; urgency=medium
+ -- Andrew Lee (李健秋) <ajqlee@debian.org>  Fri, 11 Nov 2022 13:03:57 +0800
 
-  * Initial release.
+qtxdg-tools (3.9.1-2) unstable; urgency=medium
 
- -- Simon Quigley <tsimonq2@ubuntu.com>  Tue, 31 May 2022 18:45:28 -0500
+  * Added debian/salsa-ci.yml file.
+  * debian/watch: fix uscan error.
+  * debian/rules: Remove unnecessary -Wl,--as-needed.
+  * debian/rules: Drop --fail-missing argument to dh_missing which is now
+    default in debhelper 13.
+  * Added myself as uploader.
+  * debian/lintian-overrides: no-manual-page for qtxdg-mat.
+
+ -- Andrew Lee (李健秋) <ajqlee@debian.org>  Thu, 27 Oct 2022 12:11:24 +0800
+
+qtxdg-tools (3.9.1-1) experimental; urgency=medium
+
+  * Initial release (Closes: #1014257).
+
+ -- Simon Quigley <tsimonq2@debian.org>  Sat, 02 Jul 2022 20:54:54 -0500
