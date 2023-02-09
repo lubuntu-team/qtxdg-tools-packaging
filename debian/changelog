@@ -1,4 +1,4 @@
-qtxdg-tools (3.10.0-1ubuntu1) UNRELEASED; urgency=medium
+qtxdg-tools (3.10.0-1ubuntu1) lunar; urgency=medium
 
   [ Andrew Lee ]
 
@@ -11,7 +11,7 @@ qtxdg-tools (3.10.0-1ubuntu1) UNRELEASED; urgency=medium
   * Bumped Standards-Version to 4.6.2, no changes necessary.
   * Updated copyright file.
 
- -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Thu, 09 Feb 2023 14:32:44 -0600
+ -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Thu, 09 Feb 2023 14:58:00 -0600
 
 qtxdg-tools (3.10.0-0ubuntu2) lunar; urgency=medium
 
