@@ -1,5 +1,12 @@
 qtxdg-tools (3.10.0-1ubuntu1) UNRELEASED; urgency=medium
 
+  [ Andrew Lee ]
+
+  * debian/rules: Drop --fail-missing argument to dh_missing which is now
+    default in debhelper 13.
+
+  [ Aaron Rainbolt ]
+
   * Revert a sync from Debian.
 
  -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Thu, 09 Feb 2023 14:32:44 -0600
