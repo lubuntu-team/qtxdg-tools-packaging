@@ -3,14 +3,12 @@ Upstream-Name: qtxdg-tools
 Source: https://github.com/lxqt/qtxdg-tools
 
 Files: *
-Copyright: 2019-2021 Luís Pereira <luis.artur.pereira@gmail.com>
+Copyright: 2018-2021 Luís Pereira <luis.artur.pereira@gmail.com>
+           2020-2022 LXQt team
 License: LGPL-2.1+
 
 Files: debian/*
 Copyright: 2022 Lubuntu Developers <lubuntu-devel@lists.ubuntu.com>
-           2022 Andrew Lee (李健秋) <ajqlee@debian.org>
-           2022 Aaron Rainbolt <arraybolt3@ubuntu.com>
-           2022 ChangZhuo Chen (陳昌倬) <czchen@debian.org>
 License: LGPL-2.1+
 
 License: LGPL-2.1+
