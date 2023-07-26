@@ -1,3 +1,9 @@
+qtxdg-tools (3.11.0-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream release.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Wed, 26 Jul 2023 12:32:20 -0500
+
 qtxdg-tools (3.10.0-1ubuntu1) lunar; urgency=medium
 
   [ Andrew Lee ]
