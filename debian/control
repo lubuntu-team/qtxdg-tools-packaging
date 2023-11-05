@@ -4,9 +4,9 @@ Uploaders: Simon Quigley <tsimonq2@lubuntu.me>
 Section: admin
 Priority: optional
 Build-Depends: debhelper-compat (= 13),
-               libqt5xdg-dev (>= 3.10.0),
-               libqt5xdgiconloader-dev (>= 3.10.0),
-               lxqt-build-tools (>= 0.12.0)
+               libqt5xdg-dev (>= 3.12.0),
+               libqt5xdgiconloader-dev (>= 3.12.0),
+               lxqt-build-tools (>= 0.13.0)
 Standards-Version: 4.6.2
 Vcs-Browser: https://git.lubuntu.me/Lubuntu/qtxdg-tools-packaging
 Vcs-Git: https://git.lubuntu.me/Lubuntu/qtxdg-tools-packaging.git
