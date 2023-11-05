@@ -3,13 +3,18 @@ Upstream-Name: qtxdg-tools
 Source: https://github.com/lxqt/qtxdg-tools
 
 Files: *
-Copyright: 2018-2021 Luís Pereira <luis.artur.pereira@gmail.com>
-           2020-2022 LXQt team
+Copyright: 2020-2023 LXQt team
+License: LGPL-2.1
+
+Files: src/mat/*.cpp
+       src/mat/*.h
+Copyright: 2018-2021 Luis Pereira <luis.artur.pereira@gmail.com>
 License: LGPL-2.1+
 
 Files: debian/*
-Copyright: 2022 Andrew Lee <ajqlee@debian.org>
-           2023 Lubuntu Developers <lubuntu-devel@lists.ubuntu.com>
+Copyright: 2022      Andrew Lee <ajqlee@debian.org>
+           2022-2023 Simon Quigley <tsimonq2@ubuntu.com>
+           2022-2023 Aaron Rainbolt <arraybolt3@gmail.com>
 License: LGPL-2.1+
 
 License: LGPL-2.1+
@@ -17,6 +22,20 @@ License: LGPL-2.1+
  and/or modify it under the terms of the GNU Lesser General Public
  License as published by the Free Software Foundation; either
  version 2.1 of the License, or (at your option) any later version.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Lesser General Public License for more details.
+ .
+ On Debian systems, the complete text of the GNU Lesser General
+ Public License version 2.1 can be found in "/usr/share/common-licenses/LGPL-2.1".
+
+License: LGPL-2.1
+ This program or library is free software; you can redistribute it
+ and/or modify it under the terms of the GNU Lesser General Public
+ License as published by the Free Software Foundation, version 2.1
+ of the License.
  .
  This library is distributed in the hope that it will be useful,
  but WITHOUT ANY WARRANTY; without even the implied warranty of
