@@ -1,3 +1,9 @@
+qtxdg-tools (3.12.0-0ubuntu1~ppa1) jammy; urgency=medium
+
+  * Backport to Jammy.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Fri, 10 Nov 2023 11:14:32 -0600
+
 qtxdg-tools (3.12.0-0ubuntu1) noble; urgency=medium
 
   * New upstream release.
