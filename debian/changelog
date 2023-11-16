@@ -1,3 +1,9 @@
+qtxdg-tools (3.12.0-0ubuntu1~ppa1) mantic; urgency=medium
+
+  * Backport to Mantic.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Thu, 16 Nov 2023 14:45:17 -0600
+
 qtxdg-tools (3.12.0-0ubuntu1) noble; urgency=medium
 
   * New upstream release.
