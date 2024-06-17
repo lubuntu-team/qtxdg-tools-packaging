@@ -7,7 +7,7 @@ Build-Depends: debhelper-compat (= 13),
                libqt6xdg-dev (>= 4.0.0),
                libqt6xdgiconloader-dev (>= 4.0.0),
                lxqt-build-tools (>= 2.0.0)
-Standards-Version: 4.6.2
+Standards-Version: 4.7.0
 Vcs-Browser: https://git.lubuntu.me/Lubuntu/qtxdg-tools-packaging
 Vcs-Git: https://git.lubuntu.me/Lubuntu/qtxdg-tools-packaging.git
 Homepage: https://github.com/lxqt/qtxdg-tools
