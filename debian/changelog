@@ -1,11 +1,11 @@
-qtxdg-tools (4.0.0-0ubuntu1~ppa1) oracular; urgency=medium
+qtxdg-tools (4.0.0-0ubuntu1) oracular; urgency=medium
 
   * New upstream release.
   * Bump build dependencies.
   * Bump Standards-Version to 4.7.0, no changes necessary.
   * Update copyright file.
 
- -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Mon, 17 Jun 2024 13:51:34 -0500
+ -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Thu, 15 Aug 2024 16:05:28 -0500
 
 qtxdg-tools (3.12.0-0ubuntu1) noble; urgency=medium
 
