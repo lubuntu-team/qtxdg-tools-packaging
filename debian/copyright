@@ -3,7 +3,7 @@ Upstream-Name: qtxdg-tools
 Source: https://github.com/lxqt/qtxdg-tools
 
 Files: *
-Copyright: 2020-2025 LXQt team
+Copyright: 2020-2026 LXQt team
 License: LGPL-2.1
 
 Files: src/mat/*.cpp
