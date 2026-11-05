@@ -2,7 +2,8 @@ Source: qtxdg-tools
 Maintainer: Lubuntu Developers <lubuntu-devel@lists.ubuntu.com>
 Uploaders: Simon Quigley <tsimonq2@lubuntu.me>
 Section: admin
-Build-Depends: debhelper-compat (= 13),
+Build-Depends: debhelper-compat (= 14),
+               dh-sequence-single-binary,
                libqt6xdg-dev (>= 4.5.0),
                libqt6xdgiconloader-dev (>= 4.5.0),
                libxkbcommon-dev (>= 0.5.0),
@@ -14,8 +15,6 @@ Homepage: https://github.com/lxqt/qtxdg-tools
 
 Package: qtxdg-tools
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Pre-Depends: ${misc:Pre-Depends}
 Description: User tools for libqtxdg
  LXQt is an advanced, easy-to-use, and fast desktop environment based on Qt
  technologies. It has been tailored for users who value simplicity, speed, and
